@@ -34,31 +34,45 @@ AI assistant (web-based or mobile) that helps users identify spare parts by name
 
 
 
-spare-parts-ui/
-├── public/
-│   └── favicon.ico              # Favicon or logo
-│
-├── src/
-│   ├── api/
-│   │   └── fetchPartData.js     # Calls your AI backend or mock server
-│   │
-│   ├── assets/
-│   │   └── logo.png             # Medical/technical logo
-│   │
-│   ├── components/
-│   │   ├── Header.jsx           # Navbar or top header
-│   │   └── PartCard.jsx         # Card to display part info
-│   │
-│   ├── pages/
-│   │   ├── HomePage.jsx         # Intro, explanation
-│   │   ├── PartSearch.jsx       # Form: input, upload, description
-│   │   └── ResultsPage.jsx      # Shows part details from AI
-│   │
-│   ├── App.jsx                  # Main app with routing
-│   └── main.jsx                 # React entry point
-│
-├── .gitignore
-├── index.html                   # HTML template
-├── package.json
-├── vite.config.js
-└── README.md
+
+
+# 📁 Project Structure — Spare Parts UI
+
+This structure is designed for a Vite + React project integrated with Firebase and built for spare part search and display.
+
+      
+      spare-parts-ui/
+      ├── public/
+      │ └── vite.svg # App favicon/logo
+      │
+      ├── src/
+      │ ├── api/
+      │ │ └── fetchParts.js # Firebase/AI data retrieval logic
+      │ │
+      │ ├── assets/
+      │ │ └── logo.png # Images, logos, etc.
+      │ │
+      │ ├── components/
+      │ │ ├── Header.jsx # Top navbar/header
+      │ │ └── PartCard.jsx # UI component to display part data
+      │ │
+      │ ├── pages/
+      │ │ ├── HomePage.jsx # Landing page with intro
+      │ │ ├── PartSearch.jsx # Form for entering/searching parts
+      │ │ └── ResultsPage.jsx # Display of AI/fetched results
+      │ │
+      │ ├── App.jsx # Main app file with routing
+      │ ├── App.css # Global styles
+      │ ├── main.jsx # React DOM entry point
+      │ └── firebase.js # Firebase configuration
+      │
+      ├── .gitignore # Ignored files
+      ├── index.html # Root HTML page
+      ├── package.json # Project metadata and dependencies
+      ├── package-lock.json # Dependency lock file
+      ├── vite.config.js # Vite bundler config
+      ├── eslint.config.js # ESLint rules
+      └── README.md # Project overview
+
+ 
+
