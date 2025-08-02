@@ -1,1 +1,0 @@
-# Placeholder for part_model.py
