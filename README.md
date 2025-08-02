@@ -32,3 +32,33 @@ AI assistant (web-based or mobile) that helps users identify spare parts by name
 - 🛠️ GitHub Actions build script: npm ci && npm run build
 - 🧠 Workflows for pull request deploy + live deploy from main branch
 
+
+
+spare-parts-ui/
+├── public/
+│   └── favicon.ico              # Favicon or logo
+│
+├── src/
+│   ├── api/
+│   │   └── fetchPartData.js     # Calls your AI backend or mock server
+│   │
+│   ├── assets/
+│   │   └── logo.png             # Medical/technical logo
+│   │
+│   ├── components/
+│   │   ├── Header.jsx           # Navbar or top header
+│   │   └── PartCard.jsx         # Card to display part info
+│   │
+│   ├── pages/
+│   │   ├── HomePage.jsx         # Intro, explanation
+│   │   ├── PartSearch.jsx       # Form: input, upload, description
+│   │   └── ResultsPage.jsx      # Shows part details from AI
+│   │
+│   ├── App.jsx                  # Main app with routing
+│   └── main.jsx                 # React entry point
+│
+├── .gitignore
+├── index.html                   # HTML template
+├── package.json
+├── vite.config.js
+└── README.md
