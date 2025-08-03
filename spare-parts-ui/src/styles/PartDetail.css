@@ -1,0 +1,27 @@
+.detail-card {
+  background-color: var(--card);
+  color: var(--text);
+  padding: 2rem;
+  max-width: 700px;
+  margin: 3rem auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.detail-row {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.field-label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.detail-image img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
