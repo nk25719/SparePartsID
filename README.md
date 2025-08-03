@@ -67,7 +67,7 @@ This structure is designed for a Vite + React project integrated with Firebase a
                   ├── package.json
                   ├── vite.config.js
                   ├── public/
-                  │   └── ...             # Static assets (if any)
+                  │   └── vite.svg           
                   ├── src/
                   │   ├── App.jsx
                   │   ├── main.jsx
