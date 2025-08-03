@@ -1,3 +1,23 @@
+🧠 What We're Building
+AI-powered spare parts identification and lookup assistant — a tool designed to help engineers, technicians, and support staff:
+
+✅ Identify parts using:
+📎 A part number (typed or scanned)
+
+🖼️ A photo of the component
+
+💬 A natural language description (e.g. "white plastic gear for patient bed")
+
+✅ Retrieve from a master knowledge module:
+📚 Manuals and datasheets (PDFs)
+
+🗂️ Parts catalogs from multiple vendors
+
+🧾 Previous repair logs or usage history (future expansion)
+
+
+
+
 # SparePartsID
 AI assistant (web-based or mobile) that helps users identify spare parts by name, part number, image, or natural language description—and provides usage and compatibility info.
 
