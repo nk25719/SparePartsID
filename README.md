@@ -61,38 +61,32 @@ AI assistant (web-based or mobile) that helps users identify spare parts by name
 This structure is designed for a Vite + React project integrated with Firebase and built for spare part search and display.
 
       
-      spare-parts-ui/
-      ├── public/
-      │ └── vite.svg # App favicon/logo
-      │
-      ├── src/
-      │ ├── api/
-      │ │ └── fetchParts.js # Firebase/AI data retrieval logic
-      │ │
-      │ ├── assets/
-      │ │ └── logo.png # Images, logos, etc.
-      │ │
-      │ ├── components/
-      │ │ ├── Header.jsx # Top navbar/header
-      │ │ └── PartCard.jsx # UI component to display part data
-      │ │
-      │ ├── pages/
-      │ │ ├── HomePage.jsx # Landing page with intro
-      │ │ ├── PartSearch.jsx # Form for entering/searching parts
-      │ │ └── ResultsPage.jsx # Display of AI/fetched results
-      │ │
-      │ ├── App.jsx # Main app file with routing
-      │ ├── App.css # Global styles
-      │ ├── main.jsx # React DOM entry point
-      │ └── firebase.js # Firebase configuration
-      │
-      ├── .gitignore # Ignored files
-      ├── index.html # Root HTML page
-      ├── package.json # Project metadata and dependencies
-      ├── package-lock.json # Dependency lock file
-      ├── vite.config.js # Vite bundler config
-      ├── eslint.config.js # ESLint rules
-      └── README.md # Project overview
 
- 
+     spare-parts-ui/
+                  ├── index.html
+                  ├── package.json
+                  ├── vite.config.js
+                  ├── public/
+                  │   └── ...             # Static assets (if any)
+                  ├── src/
+                  │   ├── App.jsx
+                  │   ├── main.jsx
+                  │   ├── firebase.js
+                  │   ├── App.css
+                  │   ├── index.css
+                  │   ├── components/
+                  │   │   ├── AiSearchForm.jsx
+                  │   │   ├── AiSearchForm.css
+                  │   │   ├── Header.css
+                  │   │   ├── Header.jsx
+                  │   │   └── ThemeToggle.jsx
+                  │   ├── pages/
+                  │   │   ├── AddPart.jsx
+                  │   │   ├── IdentifyPart.jsx
+                  │   │   ├── PartLibrary.jsx
+                  │   │   ├── PartDetail.jsx      
+                  │   │   └── SmartSearch.jsx
+                  │   └── styles/
+                  │       └── PartDetail.css      
+
 
